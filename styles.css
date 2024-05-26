@@ -100,8 +100,12 @@ button {
 
 .second-hero-section {
   margin: 0;
-  background: url("./images/bg-curve-desktop.svg") no-repeat center cover;
+  background: url("./images/bg-curve-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 
 .second-hero-left p:first-of-type,
@@ -157,10 +161,10 @@ button {
 /* This is the styling for the third hero section */
 
 .third-hero-section{
-	margin: 4rem 0 0;
 	background-color: hsl(238, 22%, 44%);
 	padding: 4rem;
 	color: #fff;
+  margin: 0;
 }
 
 .third-hero-left h3, .third-hero-left p{
